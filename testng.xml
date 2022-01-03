@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestNGListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/ELCOT/IdeaProjects/testleaf/src/test/java/test">
+        <classes>
+            <class name="test.button">
+                <methods>
+                    <include name="edit"/>
+                    <include name="button"/>
+                </methods>
+            </class>
+            <class name="test.edit">
+                <methods>
+                    <include name="edit"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
